@@ -1,0 +1,470 @@
+body{
+    margin: 0;
+    background-color: black;
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* !NAVBAR START */
+.navbar{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-image: url(https://images.wallpapersden.com/image/download/cosmos-galaxy-art_a2xsZmuUmZqaraWkpJRnamtlrWZpaWU.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+
+.navbar-logo{
+    display: flex;
+    align-items: center;
+    color: white;
+    width: 30%;
+    justify-content: space-between;
+    font-size: 20px;
+}
+
+.image{
+    width: 80px;
+    height: 70px;
+    border: black;
+    border-radius: 50%;
+    margin: 0 auto;
+    margin-top: 5px;
+}
+.navbar-input{
+    padding: 0;
+    margin-top: 20px;
+    margin-right: 10px;
+}
+.btn{
+    width: 150px;
+    height: 40px;
+    border: 2px solid green;
+    border-radius: 5px;
+    font-size: 18px;
+    background-color: black;
+    color: green;
+    cursor: pointer;
+    
+    
+}
+.btn:hover{
+    background-color: green;
+    color: black;
+    transition: 0.8s;
+}
+.input-search{
+    width: 250px;
+    height: 34px;
+    text-align: center;
+    border:  2px solid black;
+    border-radius: 5px;
+    font-size: 18px;
+    background-color: grey      ;
+    color: black;
+    
+}
+.input-search::placeholder{
+    color: black;
+}
+.input-search:hover{
+    background-color: white;
+    color: black;
+    transition: 0.8s    ;
+}
+
+/* !NAVBAR END */
+
+
+/* !ADMIN PANEL START */
+.admin-panel{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 60%;
+    margin-left: 19%;
+    margin-top: 80px;
+    height: 500px;
+    border: 3px solid black;
+    border-radius: 50%;
+    background-image: url(https://images.wallpapersden.com/image/download/cosmos-galaxy-art_a2xsZmuUmZqaraWkpJRnamtlrWZpaWU.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;   
+    }
+
+    
+
+.title{
+    margin: 0 auto;
+    font-size: 30px;
+    color: white;
+}
+/* ?------------------------------------------------------------------ */
+.name-inp{
+    width: 70%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    height: 35px;
+    background-color: black;
+    color: white;
+    border: 3px solid black;
+    border-radius: 15px;
+}
+.surname-inp{
+    width: 70%;
+    height: 35px;
+    margin-bottom: 20px;
+    background-color: black;
+    color: white;
+    border: 3px solid black;
+    border-radius: 15px;
+}
+.email-inp{
+    width: 70%;
+    height: 35px;
+    margin-bottom: 20px;
+    background-color: black;
+    color: white;
+    border: 3px solid black;
+    border-radius: 15px;
+}
+.image-inp{
+    width: 70%;
+    height: 35px;
+    margin-bottom: 20px;
+    background-color: black;
+    color: white;
+    border: 3px solid black;
+    border-radius: 15px;
+}
+/* ?------------------------------------------------------------------ */
+
+
+/* ?------------------------------------------------------------------ */
+
+.name-inp:hover{
+    background-color: white;
+    transition: 1s;
+    border-color: white;
+    color: black;
+}
+.surname-inp:hover{
+    background-color: white;
+    transition: 1s;
+    border-color: white;
+    color: black;
+}
+.email-inp:hover{
+    background-color: white;
+    transition: 1s;
+    border-color: white;
+    color: black;
+}
+.image-inp:hover{
+    background-color: white;
+    transition: 1s;
+    border-color: white;
+    color: black;
+}
+
+.name-inp::placeholder{
+    font-size: 18px;
+    text-align: center;
+}
+.surname-inp::placeholder{
+    font-size: 18px;
+    text-align: center;
+}
+.email-inp::placeholder{
+    font-size: 18px;
+    text-align: center;
+}
+.image-inp::placeholder{
+    font-size: 18px;
+    text-align: center;
+}
+
+.btn-add{
+    height: 40px;
+    width: 150px;
+    margin-top: 10px;
+cursor: pointer;
+opacity: .3;
+background-color: black;
+color: white;
+border: 3px solid black;
+border-radius: 20px;
+font-size: 16px;
+}
+
+.btn-add:hover{
+    background-color: black;
+    opacity: 1;
+    color: white;
+    transition: 0.6s;
+}
+/* ?------------------------------------------------------------------ */
+/* !ADMIN PANEL END  */
+
+
+/* !CARD STYLE START */
+#users-list {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 0 40px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.card{
+    background-color: white;
+    color: black;
+    max-width: 300px;
+    margin-top: 10%;
+    border: 10px solid white;
+    border-radius: 10px;
+    padding: 15px;
+}
+
+.card-img{
+    max-width: 300px;
+}
+
+.card-title{
+    font-size: 25px;
+    text-align: center;
+}
+
+.card-text{
+    text-align: center;
+    font-size: 23px;
+}
+
+.btns-block {
+    display: flex;
+    justify-content: center;
+    column-gap: 20px;
+}
+
+.btn-delete{
+    font-size: 15px;
+    text-decoration: none;
+    background-color: black;
+    color: white;
+    padding: 10px 20px; 
+    border-radius: 5px;
+    transition: all 0.5s ease;
+}
+
+.btn-edit{
+    font-size: 15px;
+    text-decoration: none;
+    background-color: black;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: all 0.5s ease;
+}
+
+.btn-delete:hover{
+    background-color: rgb(36, 36, 36);
+}
+.btn-edit:hover{
+    background-color: rgb(36, 36, 36);
+}
+
+
+/* !CARD STYLE END */
+
+/* !MODAL START */
+ .modal{
+    position: absolute;
+    z-index: 1;
+    top: 0;
+    
+    display: none;
+    width: 100%;
+    height: 680px;
+    /* left: 370px; */
+  
+    background-color: black;
+    margin: 0;
+   
+    
+ }
+
+
+ 
+
+ .modal-body{
+    margin-left: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 40px;
+
+ }
+ .body-title{
+    text-align: center;
+    
+    color: white;
+ }
+
+ .modal-title{
+    font-size: 50px;
+    color: white;
+    text-align: center;
+    margin: 0;
+ }
+
+
+ .n-inp{
+    width: 50%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    height: 35px;
+    background-color: white;
+    color: black;
+    border: 3px solid white;
+    border-radius: 15px;
+}
+.s-inp{
+    width: 50%;
+    height: 35px;
+    margin-bottom: 20px;
+    background-color: white;
+    color: black;
+    border: 3px solid white;
+    border-radius: 15px;
+}
+.e-inp{
+    width: 50%;
+    height: 35px;
+    margin-bottom: 20px;
+    background-color:white;
+    color: black;
+    border: 3px solid white;
+    border-radius: 15px;
+}
+.i-inp{
+    width: 50%;
+    height: 35px;
+    margin-bottom: 20px;
+    background-color: white;
+    color: black;
+    border: 3px solid white;
+    border-radius: 15px;
+}
+
+.btn-close{
+    width: 100px;
+    height: 30px;
+    margin-left: 1400px;
+    border: 3px solid black;
+    border-radius: 40px;
+    background-color: white;
+    font-weight: bold;
+}
+.btn-close:hover{
+    background-color: red;
+    transition: 0.8s;
+}
+
+
+.btn-save{
+    width:  130px;
+    height: 35px;
+    border-radius: 12px;
+    margin-top: 35px;
+    font-weight: bold;
+
+}
+.btn-save:hover{
+    background-color: blue;
+    transition: 0.8s;
+}
+/* !MODAL END */
+
+.pagination-block {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    margin: 30px 0;
+    column-gap: 20px;
+}
+
+.btn-dark span {
+    font-size: 22px;
+}
+
+@media (max-width: 768px) {
+    #users-list {
+        display: flex;
+        justify-content: center;
+    }
+}
+
+@media (max-width: 426px) {
+    .navbar {
+        display: block;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        padding: 30px 0;
+    }
+
+    .navbar-logo {
+        width: 100%;
+        display: block;
+        text-align: center;
+    }
+
+    .image {
+        margin-right: 20px;
+    }
+
+    .navbar h2 {
+        text-align: center;
+        font-size: 22px;
+        font-weight: bold;
+    }
+
+    .navbar-input {
+        width: 100%;
+    }
+
+    .input-search {
+        display: block;
+        margin: 0 auto;
+        margin-bottom: 20px;
+    }
+
+    .btn {
+        display: block;
+        margin: 0 auto;
+    }
+}
+
+@media (max-width: 375px) {
+    .title {
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 320px) {
+    .image {
+        display: block;
+        margin: 0 auto;
+    }
+
+    .card {
+        width: 250px;
+    }
+
+    .card-img {
+        width: 250px;
+    }
+}
